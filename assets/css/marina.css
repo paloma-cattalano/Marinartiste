@@ -1,0 +1,103 @@
+body
+{
+background-image: url("../images/fondsublime.jpg");
+background-attachment: fixed;
+font-family: Courier new, "Arial Black", Impact, Verdana, sans-serif;
+}
+
+.imageflottante
+{
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: left;
+    clear: both;
+    font-size: 25px;
+    margin-top: 60px;
+    text-decoration: underline;
+}
+
+h3
+{
+    font-size: 20px;
+    margin-top: 60px;
+    text-decoration: underline;
+}
+
+p
+{
+
+    width: auto;
+    font-size: 16px;
+    text-align: left;
+}
+
+#menu
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    border: 3px solid black;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 60px;
+    margin-bottom: 60px
+}
+
+#lecucuduchat
+{
+   display: flex;
+   justify-content: center;
+   border-radius: 10px 10px 10px 10px;
+
+}
+
+.section
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.photo
+{
+  border: black solid;
+}
+
+.legende
+{
+    margin-top: 80px;
+    margin-bottom: 55px;
+    padding-top: 15px;
+    border: black solid;
+    text-align: center;
+}
+
+.contact
+{
+    padding-top: 50px;
+}
+
+
+.copyright
+{
+    text-align: left;
+    margin-top: 120px;
+    padding-left: 200px;
+}
+
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
